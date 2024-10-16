@@ -1,0 +1,10 @@
+19:09:10 **** Incremental Build of configuration Debug for project example_for_pipeline ****
+make -j12 all 
+arm-none-eabi-size  example_for_pipeline.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16040	    128	   2192	  18360	   47b8	example_for_pipeline.elf
+Finished building: default.size.stdout
+ 
+
+19:09:10 Build Finished. 0 errors, 0 warnings. (took 245ms)
+
